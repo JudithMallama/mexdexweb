@@ -1,0 +1,148 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fff8f3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0rem;
+  background-color: #f76c5e;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 25rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 20rem 2rem 3rem;
+  text-align: center;
+  background-image: url('/img/Medex2.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.cta-button {
+  background-color: #ffd166;
+  color: #333;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.about, .download {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about{
+  padding: 2rem 2rem;
+  max-width: 1000px;
+}
+
+.download .store-buttons button {
+  background-color: #06d6a0;
+  border: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos */
+}
+
+.texto {
+    flex: 1; /* Ocupará el espacio central */
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column; /* Imágenes en columna */
+    gap: 10px;
+}
+
+.imagenes img {
+    width: 250px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f76c5e;
+  color: white;
+  margin-top: 3rem;
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    padding: 0;
+    margin-left: 0rem;
+}
+
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hero {
+    padding-top: 8rem;
+  }
+}
+
