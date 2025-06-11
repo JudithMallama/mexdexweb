@@ -48,7 +48,7 @@ body {
 .hero {
   padding: 20rem 2rem 3rem;
   text-align: center;
-  background-image: url('/img/Medex2.png');
+  background-image: url('img/Medex2.png');
   background-size: cover;
   background-position: center;
   color: white;
